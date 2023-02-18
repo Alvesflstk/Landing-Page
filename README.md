@@ -2,7 +2,7 @@
 
 *Pontos de Destaque*
 
-> Nav Bar Responsive
-> grid Bootstrap
-> display flex
-> semântca HTML5
+> Nav Bar Responsive,
+> grid Bootstrap,
+> display flex,
+> semântca HTML5,
