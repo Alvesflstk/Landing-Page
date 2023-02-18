@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100&display=swap');
+
+
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Edição de buttons header */
+#login,#register{
+    padding: 5px;
+}
+
+#login{
+    border: none;
+    
+    
+    
+}
+#login:hover{
+    border-radius: 5px;
+    cursor: pointer;
+    animation: load-button 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load-button{
+    0%{
+        border: solid 2px black;
+    }
+    50%{
+        border: solid 2px yellow;
+    }
+    100%{
+        border: solid 2px rgb(21, 162, 228);
+    }
+}
+
+/* Usar jQuery como proporção de buttons */
+
+main{
+    margin-top: 0;
+ margin-left: 20%;
+}
+/* Edição de conterudo escrito */
+section{
+    
+    max-width: 940px;
+    
+    
+}
+h1{
+    font-weight:  700;
+    font-size: 80px;
+   
+}
+
+#text-content{
+    max-width: 300px;
+    
+}
+
+/*Edição de imagens*/
+
+
+#Image-Desktop{
+    width: 400px;
+    float: right;
+    margin: 0;
+}
+
+#container{
+    margin-top: 10%;
+}
+
+/*Dropdonw*/
+
+.text-dropItem{
+    font-weight: 700;
+}
+
+/* Button de conteudo */
+
+#lead-more{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Patrocinios */
+
+.patrocinios{
+    display: flex;
+    
+    margin-top: 20px;
+    
+    
+    
+}
+.ptrt{
+    
+    margin: 15px;
+}
+
+
+/* fim da pagina */
+
+footer{
+    position: relative;
+    bottom: 0;
+    margin: 5px;
+    
+}
